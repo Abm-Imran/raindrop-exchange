@@ -1,0 +1,66 @@
+[
+    {
+      "id": "qwasdfgh623853b2d1",
+      "index": 0,
+      "price": 14,
+      "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-339.jpg",
+      "name": "Just Chill",
+      "gender": "Just Chill"
+    },
+    {
+      "id": "623853blkjhfrd1ae0dd5",
+      "index": 1,
+      "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-352.jpg",
+      "name": "Keep Coding",
+      "price": 27,
+      "gender": "Keep Coding"
+    },
+    {
+      "id": "rty2ertyujhd2ee7b76c7",
+      "index": 2,
+      "picture": "https://raindropsstore.com/product/karma/#&gid=1&pid=1",
+      "name": "Black",
+      "price": 24,
+      "gender": ""
+    },
+    {
+      "id": "mkjhfd6238asdfvdfff5345e",
+      "index": 3,
+      "picture": "https://raindropsstore.com/product/it-just-started/#&gid=1&pid=1",
+      "name": "Mix Yellow",
+      "price": 14,
+      "gender": "Mix Yellow"
+    },
+    {
+      "id": "kmjh2385lkjuytr48409ccc6",
+      "index": 4,
+      "price": 34,
+      "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-354.jpg",
+      "name": "Bachelor",
+      "gender": "male"
+    },
+    {
+      "id": "fgtr45678xdsfb2cdd94f791",
+      "index": 5,
+      "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-351.jpg",
+      "name": "Right Price",
+      "price": 141,
+      "gender": "male"
+    },
+    {
+      "id": "hjkoiuytre3beb8dhhtresd",
+      "index": 6,
+      "price": 41,
+      "picture": "https://raindropsstore.com/product/biggest-fan/#&gid=1&pid=1",
+      "name": "Black Skull",
+      "gender": "female"
+    },
+    {
+      "_id": "sdewqbnmjddd3b2736f19fd4eb8S55p",
+      "index": 7,
+      "price": 411,
+      "picture": "https://raindropsstore.com/product/be-a-leader/#&gid=1&pid=1",
+      "name": "Yellow",
+      "gender": "female"
+    }
+  ]
