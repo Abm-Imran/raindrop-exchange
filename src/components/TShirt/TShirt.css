@@ -1,0 +1,9 @@
+.tshirt-details{
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.tshirt-details img{
+    height: 250px;
+    border-radius: 10px;
+}

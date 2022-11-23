@@ -1,9 +1,13 @@
 import React from 'react';
+import './TShirt.css'
 
-const TShirt = () => {
+const TShirt = (props) => {
+    const {name,price, picture} = props.Shirt;
     return (
-        <div>
-            <h1>This is TShirt Section</h1>
+        <div className='tshirt-details'>
+            <img src={picture} alt="" />
+            <p>name: {name}</p>
+            <p>Price: ${price}</p>
         </div>
     );
 };
