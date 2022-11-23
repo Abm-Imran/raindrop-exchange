@@ -1,0 +1,30 @@
+.header {
+    height: 80px;
+    background-color: #007ACC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.header span {
+    color: white;
+    font-weight: bolder;
+    /* font-style: italic; */
+}
+
+.header a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header a:hover {
+    color: black;
+}
