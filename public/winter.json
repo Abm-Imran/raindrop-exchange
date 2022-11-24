@@ -2,7 +2,7 @@
     {
       "id": "qwasdfgh623853b2d1",
       "index": 0,
-      "price": 14,
+      "price": 299,
       "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-339.jpg",
       "name": "Dark Black",
       "gender": "Dark Black"
@@ -12,7 +12,7 @@
       "index": 1,
       "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-352.jpg",
       "name": "Listen Black",
-      "price": 27,
+      "price": 249,
       "gender": "Listen Black"
     },
     {
@@ -20,7 +20,7 @@
       "index": 2,
       "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-354.jpg",
       "name": "Im Possible",
-      "price": 24,
+      "price": 349,
       "gender": ""
     },
     {
@@ -28,13 +28,13 @@
       "index": 3,
       "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-346.jpg",
       "name": "Out Of Ctrl",
-      "price": 14,
+      "price": 340,
       "gender": "Mix Yellow"
     },
     {
       "id": "kmjh2385lkjuytr48409ccc6",
       "index": 4,
-      "price": 34,
+      "price": 375,
       "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-354.jpg",
       "name": "Possible",
       "gender": "male"
@@ -44,13 +44,13 @@
       "index": 5,
       "picture": "https://raindropsstore.com/wp-content/uploads/2022/11/4501-351.jpg",
       "name": "Anxiety",
-      "price": 141,
+      "price": 259,
       "gender": "male"
     },
     {
       "id": "hjkoiuytre3beb8dhhtresd",
       "index": 6,
-      "price": 41,
+      "price": 399,
       "picture": "https://raindropsstore.com/wp-content/uploads/2021/08/3319.jpg",
       "name": "Blue",
       "gender": "female"
@@ -58,7 +58,7 @@
     {
       "_id": "sdewqbnmjddd3b2736f19fd4eb8S55p",
       "index": 7,
-      "price": 411,
+      "price": 499,
       "picture": "https://raindropsstore.com/wp-content/uploads/2021/08/3315.jpg",
       "name": "Purple Light",
       "gender": "female"

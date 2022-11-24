@@ -32,7 +32,7 @@
 
 .tshirt-details .tshirt-name {
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     right: 0;
     color: orange
 }
@@ -41,7 +41,7 @@
     position: absolute;
     bottom: 30px;
     right: 0;
-    color:black
+    color:orange
 }
 
 .tshirt-details button {

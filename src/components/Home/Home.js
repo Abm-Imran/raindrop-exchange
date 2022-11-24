@@ -11,9 +11,21 @@ const Home = () => {
 
     const handleAddItem = (selectedItem) => {
         // console.log('clicked');
-        const newCart = [...cart, selectedItem];
-        setCart(newCart)
         console.log(cart);
+        const available = cart.find(clickedItem=> clickedItem.id === selectedItem.id);
+        if(!available){
+            const newCart = [...cart, selectedItem];
+            setCart(newCart);
+        }
+        else{
+            alert('This Item Already Added');
+        }
+    }
+
+    const handleRemoveItem = (selectedItem) =>{
+        // console.log('clicked');
+        const rest = cart.filter(clickedItem=> clickedItem.id !== selectedItem.id);
+        setCart(rest);
     }
 
     return (
@@ -30,6 +42,7 @@ const Home = () => {
             <div className="cart-container">
                 <Cart
                 cart={cart}
+                handleRemoveItem={handleRemoveItem}
                 ></Cart>
             </div>
         </div>

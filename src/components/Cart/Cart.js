@@ -1,20 +1,22 @@
 import React from 'react';
 import './Cart.css'
-const Cart = ({cart}) => {
-    const {name, price, piture} = cart;
+const Cart = ({ cart, handleRemoveItem }) => {
+    const { name, price, piture } = cart;
     // console.log(cart);
     return (
-        <div>
-            <h4>Selected item: {cart.length}</h4>
+        <div className='cart-product'>
+            <h2>Selected Items: {cart.length}</h2>
             {
-                cart.map(tshirt=> 
+                cart.map(tshirt => 
                     <div className='cart-item'>
-                        <img src={tshirt.picture} alt="" />
-                        <p>{tshirt.name}</p>
-                        <button>add</button>
+                        <div className='cart-details'>
+                            <img src={tshirt.picture} alt="" />
+                            <p>{tshirt.name}</p>
+                        </div>
+                        <button onClick={()=> handleRemoveItem(tshirt)} >Remove Me</button>
                     </div>)
             }
-            
+
         </div>
     );
 };

@@ -1,7 +1,35 @@
+.cart-product h2{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
 .cart-item{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 250px;
+    border: 1px solid gray;
+    border: none;
+    border-radius: 10px;
+}
+.cart-details{
+    display: flex;
+}
+.cart-details p{
+    color: #007ACC;
 }
 .cart-item img{
     width: 40px;
     height: 40px;
+    margin-top: 6px;
+}
+.cart-item button{
+    height: 20px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
 }
