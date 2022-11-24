@@ -1,9 +1,61 @@
-.tshirt-details{
-    height: 380px;
-    border: 1px solid black;
+.tshirt-details {
+    height: 280px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+    position: relative;
+    opacity: .9;
+}
+
+.tshirt-details:hover {
+    opacity: 1;
+}
+
+.tshirt-details:hover button,
+.tshirt-details:hover p {
+    display: block;
+}
+
+.tshirt-details img {
+    height: 250px;
+    margin: 0 auto;
     border-radius: 10px;
 }
-.tshirt-details img{
-    height: 250px;
-    border-radius: 10px;
+
+.tshirt-details p {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.tshirt-details .tshirt-name {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    color: orange
+}
+
+.tshirt-details .tshirt-price {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    color:black
+}
+
+.tshirt-details button {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    background: #434242;
+    display: none;
+}
+
+.tshirt-details button:hover {
+    color: whitesmoke;
 }
