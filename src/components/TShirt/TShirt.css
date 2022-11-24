@@ -52,7 +52,8 @@
     border: none;
     border-radius: 0 0 10px 10px;
     cursor: pointer;
-    background: #434242;
+    /* background: #434242; */
+    background: #282A3A;
     display: none;
 }
 

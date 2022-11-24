@@ -1,6 +1,7 @@
 .header {
     height: 80px;
-    background-color: #007ACC;
+    /* background-color: #007ACC; */
+    background: #3B3486;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +24,7 @@
     color: whitesmoke;
     font-weight: bold;
     font-size: 20px;
+    font-style: italic;
 }
 
 .header a:hover {
